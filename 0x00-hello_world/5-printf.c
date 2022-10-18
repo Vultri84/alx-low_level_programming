@@ -1,6 +1,6 @@
-#include <stdio.sh>
+#include <stdio.h>
 /**
- * main - program entry point
+ * main - entry point
  * Return: Always 0
  */
 int main(void)
