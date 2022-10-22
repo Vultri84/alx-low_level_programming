@@ -10,7 +10,12 @@ void more_numbers(void);
 void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
+<<<<<<< HEAD
 void print_triangle(int size);
 int _putchar(char c);
+=======
+void print_square(int size);
+void print_triangle(int size);
+>>>>>>> 1b45b255e14fedcf1960d9be5975e48851818e66
 
 #endif
