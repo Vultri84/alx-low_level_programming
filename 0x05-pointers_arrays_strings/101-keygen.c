@@ -30,4 +30,6 @@ int main(void)
 			break;
 		}
 	}
-i}
+
+	return (0);
+}
