@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 
 /**
  * puts2 - prints character
@@ -17,5 +17,5 @@ void puts2(char *str)
 		else
 			continue;
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
