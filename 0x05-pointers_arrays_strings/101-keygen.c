@@ -30,12 +30,6 @@ int main(void)
 			break;
 		}
 	}
-<<<<<<< HEAD
 
 	return (0);
 }
-=======
-	
-	return (0);
-i}
->>>>>>> 057e31d61013354a076378c1270a3bb6d4823721
