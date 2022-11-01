@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 
 /**
  * cap_string - capitalizes words
@@ -16,23 +16,23 @@ char *cap_string(char *str)
 
 				i++;
 		if (str[i - 1] == ' ' ||
-			str[i - 1] == '\t' ||
-			str[i - 1] == '\n' ||
-			str[i - 1] == ',' ||
-			str[i - 1] == ';' ||
-			str[i - 1] == '.' ||
-			str[i - 1] == '!' ||
-			str[i - 1] == '?' ||
-			str[i - 1] == '"' ||
-			str[i - 1] == '(' ||
-			str[i - 1] == ')' ||
-			str[i - 1] == '{' ||
-			str[i - 1] == '}' ||
-			i == 0)
-				str[i] -= 32;
+		    str[i - 1] == '\t' ||
+		    str[i - 1] == '\n' ||
+		    str[i - 1] == ',' ||
+		    str[i - 1] == ';' ||
+		    str[i - 1] == '.' ||
+		    str[i - 1] == '!' ||
+		    str[i - 1] == '?' ||
+		    str[i - 1] == '"' ||
+		    str[i - 1] == '(' ||
+		    str[i - 1] == ')' ||
+		    str[i - 1] == '{' ||
+		    str[i - 1] == '}' ||
+		    i == 0)
+			str[i] -= 32;
 
 		i++;
 	}
-
+	
 	return (str);
 }
