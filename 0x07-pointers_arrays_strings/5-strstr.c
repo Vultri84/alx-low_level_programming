@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strstr - Entry point
+ * _strstr - Entry point
  * @haystack: input
  * @needle: input
  * Return: Always 0
