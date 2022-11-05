@@ -21,3 +21,6 @@ while (count < argc)
 {
 printf("%s\n", argv[count]);
 
+return (0);
+}
+
