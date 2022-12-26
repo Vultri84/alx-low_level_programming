@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 
-/* more headers goes there */
 /**
  * main - entry point to our program
  * Description: determines if a number is positive negative zero
@@ -20,13 +19,13 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-	if (n == 0)
+	if (n < 0)
 	{
-		printf("%d is zero\n", n);
+		printf("%d is negative\n", n);
 	}
 	else
 	{
-		printf("%d is negative\n", n);
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
